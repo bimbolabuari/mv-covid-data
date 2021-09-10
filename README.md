@@ -1,7 +1,6 @@
 # React-Redux Capstone Project
 
-> This project is a Microverse capstone project
-
+> This project is a Microverse capstone project on building Covid tracking app using API, react and redux, functional components, State, ES6 modules, import and export, Hooks, Router, Reducer, Store, Action.
 
 ## Author
 

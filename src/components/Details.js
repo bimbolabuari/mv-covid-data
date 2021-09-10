@@ -9,7 +9,6 @@ const Details = () => {
   const covidData = useSelector((data) => data.Reducer);
   const { id } = useParams();
   const countryData = covidData.find((data) => data.id === id);
-  console.log(countryData);
 
   return (
     <div className="home-container">
