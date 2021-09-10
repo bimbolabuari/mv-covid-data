@@ -16,7 +16,7 @@
 - Clone the project
 
 ```bash
-git clone https://github.com/bimbolabuari/.git
+git clone https://github.com/bimbolabuari/mv-react-redux-capstone.git
 
 ```
 
@@ -37,7 +37,11 @@ You can also check against Eslint:
 ```bash
 npx eslint .
 ```
+To run test:
 
+```bash
+npm run test
+```
 
 ## 🤝 Contributing
 
