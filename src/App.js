@@ -5,30 +5,22 @@ import {
   Route,
   Redirect,
 } from 'react-router-dom';
-import Header from './components/Header';
-import MissionComponent from './components/mission';
-import ProfileComponent from './components/profile';
-import RocketComponent from './components/rocket';
+import Home from './components/Home';
+import Details from './components/Details';
 
 const App = () => (
   <Router>
-    <div className="">
-      <Header />
-      <Switch>
-        <Route exact path="/">
-          <Redirect to="/rocket" />
-        </Route>
-        <Route path="/rocket">
-          <RocketComponent />
-        </Route>
-        <Route path="/mission">
-          <MissionComponent />
-        </Route>
-        <Route path="/profile">
-          <ProfileComponent />
-        </Route>
-      </Switch>
-    </div>
+    <Switch>
+      <Route exact path="/">
+        <Redirect to="/home" />
+      </Route>
+      <Route path="/home">
+        <Home />
+      </Route>
+      <Route path="/details/:id">
+        <Details />
+      </Route>
+    </Switch>
   </Router>
 );
 export default App;
