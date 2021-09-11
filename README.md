@@ -2,8 +2,15 @@
 
 > This project is a Microverse capstone project on building Covid tracking app using API, react and redux, functional components, State, ES6 modules, import and export, Hooks, Router, Reducer, Store, Action.
 
-## Author
+## Netlify Live Preview Link 🙂 
+[Preview Link](https://deploy-preview-1--bimbolabuari-mv-react-redux-capstone.netlify.app)
 
+[Loom Presentation video](https://www.loom.com/share/52e12bb2b2564ddd99575df24c5de52d)
+
+### Note to code Reviewer 
+- I was unable to use my camera for my loom presentation due to some technical issues relating to Loom not being able to access my camera.
+
+## Author
 👤 **Abimbola Aminat Buari**
 
 - GitHub: [bimbolabuari](https://github.com/bimbolabuari)
@@ -56,4 +63,5 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
+- [Nelson Sakwa on Behance](https://www.behance.net/sakwade)
 - Code reviewer(s).
