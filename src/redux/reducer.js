@@ -1,10 +1,12 @@
-import GET_DATA from '../actions/actions';
+import * as actions from '../actions/actions';
 
 const initialState = [];
 
 const Reducer = (state = initialState, action) => {
   switch (action.type) {
-    case GET_DATA:
+    case actions.GET_DATA:
+      return state;
+    case actions.SET_DATA:
       return [...state, ...action.payload];
     default:
       return state;

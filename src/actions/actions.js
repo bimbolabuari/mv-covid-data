@@ -1,3 +1,2 @@
-const GET_DATA = 'getData';
-
-export default GET_DATA;
+export const GET_DATA = 'getData';
+export const SET_DATA = 'setNewData';

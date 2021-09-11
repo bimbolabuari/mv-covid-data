@@ -1,8 +1,10 @@
-import GET_DATA from './actions';
+import * as actions from './actions';
 
-const getData = (payload) => ({
-  type: GET_DATA,
-  payload,
+export const getData = () => ({
+  type: actions.GET_DATA,
 });
 
-export default getData;
+export const setData = (payload) => ({
+  type: actions.SET_DATA,
+  payload,
+});
