@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import getData from '../actions/actionCreator';
+import Filter from './Filter';
 import microphone from '../images/microphone.png';
 import leftArrow from '../images/left-arrow.png';
 import right from '../images/right.png';
@@ -56,6 +57,7 @@ const Home = () => {
           ))}
         </div>
       </div>
+      <Filter />
     </div>
   );
 };
